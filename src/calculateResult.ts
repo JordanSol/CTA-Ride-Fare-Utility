@@ -17,7 +17,7 @@ export default function calculateResult(fare: number, userGaavo: number[]): numb
     if (!intermediateResult[length][fare]) { // if it is not possible to make fare, return empty array
         return [];
     }
-    const combination: number[] = []; // stoer combination of numbers that add up to the sum
+    const combination: number[] = []; // store combination of numbers that add up to the sum
     let i = length;
     let j = fare;
     while (i > 0 && j > 0) {
