@@ -34,4 +34,6 @@ export default function calculateResult(fare: number, userGaavo: number[]): numb
 /* 
     The time complexity of 'calculateResult' is O(n * fare)
     Where 'n' is the number of elements in the 'userGaavo' array.
+
+    This is completely over-optimized and it definitely does not need to be this complex, but the challenge was to aim for performance!
 **/
