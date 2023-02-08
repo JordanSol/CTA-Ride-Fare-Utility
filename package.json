@@ -1,0 +1,28 @@
+{
+  "name": "CTA-Ride-Fare-Utility",
+  "version": "1.0.0",
+  "description": "CTA Ride Fare Utility coding challenge for Nickles",
+  "main": "src/index.ts",
+  "bin": "src/index.ts",
+  "author": "Jordan Freeman",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "mocha -r ts-node/register --trace-warnings --watch-extensions ts ./src/test.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^18.13.0",
+    "@types/readline-sync": "^1.4.4",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "readline-sync": "^1.4.10",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
